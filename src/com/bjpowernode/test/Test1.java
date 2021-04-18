@@ -24,7 +24,6 @@ public class Test1 {
         for (HashMap<String,Object> i:list){
             Set<String> set = i.keySet();
             for (String key:set){
-                System.out.println(key);
                 System.out.println(i.get(key));
             }
         }
